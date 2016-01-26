@@ -12,12 +12,12 @@ session=codefun   # session name
 
 if [ -z $cmd ]; then
 	echo "You need to install tmux."
-	sudo apt-get install tmux
+	sudo apt-get install tmux zsh
 	exit 1
 fi
 
 if [ -z ~/.zshrc ]; then
-	sh -c "$(curl -fsSL ahttps://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+	sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
 
 $cmd has -t $session
