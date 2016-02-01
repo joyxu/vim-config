@@ -42,6 +42,7 @@ Plugin 'vim-scripts/grep.vim.git'
 Plugin 'vim-scripts/c.vim.git'
 Plugin 'chazy/cscope_maps'
 Plugin 'vivien/vim-linux-coding-style'
+Plugin 'tomtom/tcomment_vim'
 
 " Git
 Plugin 'tpope/vim-fugitive'
@@ -136,3 +137,7 @@ let NERDTreeHijackNetrw = 1
 "let NERDTreeQuitOnOpen = 1
 let NERDTreeChDirMode = 2
 let NERDTreeDirArrows = 1
+
+" Easy commenting
+nnoremap // :TComment<CR>
+vnoremap // :TComment<CR>
