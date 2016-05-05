@@ -43,6 +43,9 @@ Plugin 'vim-scripts/c.vim.git'
 Plugin 'chazy/cscope_maps'
 Plugin 'vivien/vim-linux-coding-style'
 Plugin 'tomtom/tcomment_vim'
+Plugin 'vim-scripts/DirDiff.vim.git'
+Plugin 'vim-scripts/cscope.vim'
+Plugin 'simplyzhao/cscope_maps.vim.git'
 
 " Git
 Plugin 'tpope/vim-fugitive'
