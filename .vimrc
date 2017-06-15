@@ -47,6 +47,9 @@ Plugin 'vim-scripts/DirDiff.vim.git'
 Plugin 'vim-scripts/cscope.vim'
 Plugin 'simplyzhao/cscope_maps.vim.git'
 
+"IRC
+Plugin 'vim-scripts/VimIRC.vim.git'
+
 " Git
 Plugin 'tpope/vim-fugitive'
 
