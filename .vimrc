@@ -46,12 +46,16 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'vim-scripts/DirDiff.vim.git'
 Plugin 'vim-scripts/cscope.vim'
 Plugin 'simplyzhao/cscope_maps.vim.git'
-
-"IRC
-Plugin 'vim-scripts/VimIRC.vim.git'
+" Track the engine.
+Plugin 'SirVer/ultisnips'
+" Snippets are separated from the engine. Add this if you want them:
+Plugin 'honza/vim-snippets'
 
 " Git
 Plugin 'tpope/vim-fugitive'
+
+"IRC
+Plugin 'vim-scripts/VimIRC.vim.git'
 
 " Tmux
 "Plugin 'benmills/vimux'
@@ -99,7 +103,7 @@ endif
 "  Text Formatting
 "  ---------------------------------------------------------------------------
 set nowrap
-set textwidth=79
+"set textwidth=79
 
 "  ---------------------------------------------------------------------------
 "  GREP settings
@@ -147,3 +151,12 @@ let NERDTreeDirArrows = 1
 " Easy commenting
 nnoremap // :TComment<CR>
 vnoremap // :TComment<CR>
+
+
+" Trigger configuration. Do not use <tab> if you use
+" https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
