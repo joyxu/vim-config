@@ -62,6 +62,9 @@ Plugin 'vim-scripts/VimIRC.vim.git'
 
 Plugin 'majutsushi/tagbar' 		" display ctags in a side buffer
 
+"drawit
+Plugin 'vim-scripts/DrawIt.git'
+
 call vundle#end()
 
 if has_vundle == 0
