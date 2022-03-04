@@ -65,9 +65,6 @@ Plugin 'majutsushi/tagbar' 		" display ctags in a side buffer
 "drawit
 Plugin 'vim-scripts/DrawIt.git'
 
-"ctag
-Plugin 'szw/vim-tags.git'
-
 call vundle#end()
 
 if has_vundle == 0
